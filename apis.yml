@@ -1,23 +1,84 @@
 aid: ai2robotics
+
 name: Ai²robotics
-description: 'Ai²robotics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://ai2robotics.com/wp-content/uploads/2023/11/cropped-fav.png
+
+description: Ai²robotics (智平方科技) is a global leader in the research, development, manufacturing, and services of general‑purpose intelligent robots.
+  Founded in April 2023 and headquartered in Shenzhen, the company accelerates the adoption of AGI robots, aiming to make them as ubiquitous as
+  smartphones. It offers the AlphaBrain Platform and other AI‑driven robotics solutions for industrial and commercial applications, with a focus
+  on safety, scalability, and real‑world AI integration.
+
 url: https://raw.githubusercontent.com/api-evangelist/ai2robotics/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-22'
+
 modified: '2026-09-22'
+
 tags:
-- Company
-apis: []
+- Robotics
+- AI
+- AGI
+- Manufacturing
+- Shenzhen
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: ChangeLog
+  url: changelog/ai2robotics-changelog.yml
+- type: Newsroom
+  url: https://ai2robotics.com/news/
+- type: GitHubOrganization
+  url: https://github.com/ai2robotics
+- type: DomainSecurity
+  url: security/ai2robotics-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/ai²robotics
+  url: https://ai2robotics.com
+- type: Documentation
+  url: https://docs.ai2robotics.com
+- type: Blog
+  url: https://ai2robotics.com/news
+- type: Support
+  url: https://ai2robotics.com/contact
+- type: APIReference
+  url: https://docs.ai2robotics.com
+- type: GettingStarted
+  url: https://docs.ai2robotics.com/start/product-introduction/
+- type: SignUp
+  url: https://ai2robotics.com/joinus
+
+apis:
+- name: Ai²robotics API
+  description: API documentation is provided at https://docs.ai2robotics.com but no machine‑readable contract was found.
+  humanURL: https://docs.ai2robotics.com
+  baseURL: null
+  aid: ai2robotics:ai-robotics-api
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Docs site returns HTML shells for spec URLs, no machine‑readable OpenAPI found.
+  evidence:
+  - url: https://docs.ai2robotics.com/openapi.json
+    status: 200
+  checked: 2026-09-22
+x-enrichment:
+  date: '2026-09-22'
+  status: enriched
+  artifacts_added: 4
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
