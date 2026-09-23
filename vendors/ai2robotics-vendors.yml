@@ -1,0 +1,27 @@
+generated: '2026-09-22'
+method: none
+source: pre-flight dossier (docs platform, portal detections) + CNAME chains and response headers of the hosts apis.yml names
+registry: all/0-working/vendors.yml
+areas_vocabulary:
+- documentation
+- developer-portal
+- api-gateway
+- cdn
+- hosting
+- sdk-generation
+- api-collections
+- status-page
+- support
+- community
+- identity
+- mcp-hosting
+vendors: []
+checked:
+- 'docs-platform: custom'
+- ai2robotics.com (Website)
+- docs.ai2robotics.com (Documentation)
+- ai2robotics.com (Support)
+- docs.ai2robotics.com (APIReference)
+- docs.ai2robotics.com (GettingStarted)
+- ai2robotics.com (SignUp)
+note: no vendor fingerprint on any host the record names; a hand-built surface, or hosts the pipeline has not yet found

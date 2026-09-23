@@ -1,0 +1,26 @@
+generated: '2026-09-22'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.ai2robotics.com/sdk/release-notes/
+sources:
+- https://docs.ai2robotics.com/sdk/release-notes/
+entries:
+- breaking: false
+  highlights:
+  - 修复第三方电机线程退出时序异常问题。
+  - 优化 RealSense .so 库文件查找策略。
+  date: '2026-06-03'
+- breaking: false
+  highlights:
+  - 修复 CAN 错误（can-bus-off）。
+  date: '2026-04-20'
+- breaking: false
+  highlights:
+  - 适配 NVIDIA Jetson Orin NX 急停功能。
+  - 自此版本起，AlphaBotCore SDK 共支持三套急停配置。在使用 EStopMonitor 时，建议显式指定 EStopMConfig 配置，后续版本将移除缺省配置。
+  - 增加结构化故障码。
+  - 升级 Realsense 相机底层驱动库，优化多相机同时启动性能，缓解卡顿问题。
+  date: '2026-04-15'
+current_version: V0.8.15
+note: Versioning scheme follows the pattern V{major}.{minor}.{patch}.
+docs: https://docs.ai2robotics.com/sdk/release-notes/
