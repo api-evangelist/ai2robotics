@@ -1,10 +1,9 @@
-generated: 2026-09-22
+generated: 2026-09-24
 method: none
-type: MCPServer
 deployment:
   mode: none
-  endpoint: null
-  install: null
-  package: null
+  endpoint: ""
+  install: ""
+  package: ""
   auth: unknown
   verified: derived

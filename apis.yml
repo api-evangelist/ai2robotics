@@ -38,6 +38,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- type: Hosts
+  url: hosts/ai2robotics-hosts.yml
 - type: ChangeLog
   url: changelog/ai2robotics-changelog.yml
 - type: Newsroom
@@ -77,8 +79,8 @@ x-coverage:
     status: 200
   checked: 2026-09-22
 x-enrichment:
-  date: '2026-09-22'
-  status: enriched
-  artifacts_added: 4
+  date: '2026-09-24'
+  status: minimal
+  artifacts_added: 1
   pass: modular-v1
   engine: identity=local,contract=local,surfaces=local,docs=local
